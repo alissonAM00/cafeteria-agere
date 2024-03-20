@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    position: relative;
+  
+
+ 
+
+
+
+    .principal {
+        display: flex;
+
+
+    }
+
+    .principal__image {
+        z-index: -1;
+        width: 70vw;
+
+    }
+
+    .numbers {
+        background-color: $isa;
+        display: flex;
+        z-index: 1;
+        position: absolute;
+        right: 29%;
+        top: 66%;
+        gap: 5px;
+        width: 35%;
+        padding: 40px 50px;
+        text-align: center;
+        justify-content: center;
+
+        &__number{
+            font-family: $mono-font;
+            font-size: $xx-large;
+        }
+
+        &__text {
+            font-family: $roboto-font;
+            font-size: $medium; 
+        }
+
+
+    }
+
+}
+
+.title {
+    flex-wrap: wrap;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 15%;
+
+
+    &__text {
+        font-size: $xxx-large;
+        width: 40%;
+        font-family: $mono-font;
+        font-weight: $font-medium;
+    }
+
+
+
+}
+
+.icon {
+    position: relative;
+
+    &--flame {
+        background-color: $flame;
+        z-index: 2;
+        position: absolute;
+        font-size: $xxx-large;
+        padding: 55px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: $white;
+        right: 330px;
+        top: 310px;
+
+
+
+    }
+}
+.quadrate{
+    position: relative;
+    &--coral{
+        position: absolute;
+        background-color: $coral;
+        height: 170px;
+        width: 170px;
+        z-index: 1;
+        right: 310px;
+        top: 376px;
+
+
+    }
+
+}

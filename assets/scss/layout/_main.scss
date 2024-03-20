@@ -1,0 +1,100 @@
+.main {
+    width: 100%;
+    display: flex;
+
+}
+
+.visit {
+    display: flex;
+    flex-direction: column;
+    width: 58vw;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: -1;
+    padding: $sp4;
+
+
+
+    &__title {
+        font-family: $mono-font;
+        font-size: $xx-large;
+        padding-bottom: $sp2;
+        font-weight: $font-medium;
+    }
+
+    &__paragraph {
+        font-family: $roboto-font;
+        font-size: $medium;
+    }
+}
+
+.rectangle {
+    display: flex;
+    background-color: $bluef;
+    width: 65vw;
+    height: 35vh;
+    position: relative;
+
+    &__bluef {
+        position: absolute;
+        z-index: -1;
+    }
+
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    z-index: -1;
+
+    &__coffe {
+        width: 30vw;
+        height: 45vh;
+    }
+}
+
+.grains {
+
+    &__coffee {
+        width: 6%;
+        height: 30%;
+        position: absolute;
+        right: 28%;
+    }
+}
+
+.map {
+    display: flex;
+
+    &__image {
+        position: absolute;
+        z-index: 1;
+        width: 30%;
+        height: 30%;
+        right: 37%;
+        top: 95%
+    }
+}
+
+/* 
+
+}
+
+.map {
+    
+
+   
+}
+
+.coffee {
+    display: flex;
+    position: relative;
+
+    &__grains {
+        position: absolute;
+        z-index: 2;
+        width: 10vw;
+        height: 30vh;
+    }
+} */

@@ -1,0 +1,37 @@
+.form-login__container-buttons{
+    gap: $sp5;
+    }
+  
+
+
+
+.btn{
+    padding: 5px;
+
+    &--isa{
+        background-color: $isa;
+        color: $gray;
+        border: 1px solid #dfdfdf;
+        
+        
+    }
+
+    &--shiny{
+        background-color: $shiny;
+        border: 1px solid $shiny;
+        color: $white;
+       
+    }
+}
+.btn--isa:hover{
+    border: 1px solid $black;
+    color:$black;
+    background-color: $white;
+}
+
+.btn--shiny:hover{
+    background-color: $tgreen;
+    color: $black;
+
+}
+
